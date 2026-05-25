@@ -1,0 +1,4 @@
+interface:
+  display_name: "授信客户拓展"
+  short_description: "给现有企业名单筛出更值得优先拜访的授信客户。"
+  default_prompt: "使用 $qixindata-bank-credit-prospecting 对一批已有企业名单做授信客户拓展优先级排序，找出更可能存在融资或授信需求、且更值得客户经理优先拜访的 A 类客户，并说明需求信号、准入友好度和降级原因。"

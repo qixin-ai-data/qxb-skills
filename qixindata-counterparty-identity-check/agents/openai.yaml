@@ -1,0 +1,4 @@
+interface:
+  display_name: "合作前主体核验"
+  short_description: "合作前核实中国企业是否为正确签约主体，排除重名、分支和迁移误判"
+  default_prompt: "Use $qixin-cn-counterparty-identity-check to verify whether a Chinese company is the exact intended counterparty before contracting."

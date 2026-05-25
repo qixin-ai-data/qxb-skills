@@ -1,0 +1,4 @@
+interface:
+  display_name: "重点客户商机挖掘"
+  short_description: "扫描重点客户及子公司中的跨境、开户、授信和业务交叉机会"
+  default_prompt: "Use $qixin-cn-existing-customer-deepening-recommendation to scan key Chinese accounts and their affiliates for cross-border, account-opening, credit, and cross-sell opportunities."

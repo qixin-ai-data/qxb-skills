@@ -1,0 +1,13 @@
+interface:
+  display_name: "司法与经营风险体检"
+  short_description: "对单个中国大陆企业输出司法、处罚、经营异常体检的简版报告与结构化结果。"
+  default_prompt: "使用 $qixindata-judicial-operational-risk-check 对一家中国大陆企业做司法、处罚、经营异常体检，并输出简版报告和结构化结果。"
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "qixinMCP"
+      description: "启信 MCP，用于中国大陆企业主体解析、风险总览查询和明细接口补查。"
+
+policy:
+  allow_implicit_invocation: true

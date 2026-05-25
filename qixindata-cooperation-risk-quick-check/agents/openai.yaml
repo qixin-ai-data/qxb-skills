@@ -1,0 +1,4 @@
+interface:
+  display_name: "合作前风险速查"
+  short_description: "合作前快速识别企业诉讼、处罚、异常等明显风险信号。"
+  default_prompt: "使用 $qixindata-cooperation-risk-quick-check 快速判断一家中国企业是否存在明显合作风险信号，并决定是否进入下一步尽调或评审。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "开户准入核验"
+  short_description: "开户或准入前核验企业真实存续、资料齐全与流程放行结论"
+  default_prompt: "Use $qixin-cn-pre-admission-check to decide whether a Chinese company can move to the next onboarding or admission step."

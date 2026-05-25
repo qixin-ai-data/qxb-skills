@@ -1,0 +1,4 @@
+interface:
+  display_name: "候选企业快速比选"
+  short_description: "把 A/B/C 候选企业放在一起打分对比，输出排序结论与评分卡"
+  default_prompt: "Use $qixin-cn-candidate-enterprise-compare to compare A/B/C Chinese companies and produce a scorecard for business, procurement, or investment screening."

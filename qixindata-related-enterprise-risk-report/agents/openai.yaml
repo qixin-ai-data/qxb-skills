@@ -1,0 +1,15 @@
+interface:
+  display_name: "启信宝关联企业传导风险报告"
+  short_description: "面向客户交付的中国企业关联圈风险传导与外溢分析报告"
+  icon_small: "./assets/logo.png"
+  icon_large: "./assets/logo.png"
+  default_prompt: "Use $qixin-cn-related-enterprise-risk-propagation-report to assess whether risks in a Chinese enterprise's related-entity network may propagate to the target company, and deliver the result as a client-facing Markdown/PDF report."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "qixinMCP"
+      description: "启信宝国内企业主体解析、关联关系、人物洞察和风险排查 MCP"
+
+policy:
+  allow_implicit_invocation: true

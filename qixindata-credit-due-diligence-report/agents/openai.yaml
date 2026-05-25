@@ -1,0 +1,4 @@
+interface:
+  display_name: "国内企业授信尽调底稿"
+  short_description: "面向授信经理与审批人员快速生成正式企业授信尽调底稿报告"
+  default_prompt: "Use $qixin-cn-credit-due-diligence-report to create a formal credit due diligence working report for a Chinese enterprise."

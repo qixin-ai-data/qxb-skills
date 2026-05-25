@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bank Admission Quick Check"
+  short_description: "Conservative quick bank onboarding screen"
+  default_prompt: "Use $qixindata-bank-customer-admission-quick-check to run a conservative quick admission check for the named enterprise."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "QXB 负面舆情扫描"
+  short_description: "识别企业近期负面舆情、新闻事件并完成去重与出处甄别"
+  default_prompt: "Use $qixindata-public-opinion-negative-scan 对目标企业最近 90 天的负面舆情与新闻做扫描，输出事件数量、质量摘要、去重说明和出处。"

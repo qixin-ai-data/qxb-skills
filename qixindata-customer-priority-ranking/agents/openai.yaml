@@ -1,0 +1,4 @@
+interface:
+  display_name: "银行对公客户优先级排序"
+  short_description: "从企业名单中输出银行客户经理优先拜访顺序、A 类正式白名单和候补名单"
+  default_prompt: "Use $qixin-cn-customer-priority-ranking to rank Chinese corporate banking prospects, identify the best A-class whitelist for client managers, and explain the best entry products such as account opening, credit, bills, settlement, and cash management."

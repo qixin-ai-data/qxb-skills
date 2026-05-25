@@ -1,0 +1,4 @@
+interface:
+  display_name: "企业全景尽调"
+  short_description: "面向客户交付，先输出带 logo 的简版 PDF，再按需扩展正式版 PDF"
+  default_prompt: "Use $qixin-cn-enterprise-panorama-due-diligence to produce a client-facing brief due diligence PDF for a Chinese company. Start the report directly with the conclusion summary, keep Markdown only as the working draft, place the bundled logo at the top right of the first page, and then ask whether to expand it into a formal PDF report."

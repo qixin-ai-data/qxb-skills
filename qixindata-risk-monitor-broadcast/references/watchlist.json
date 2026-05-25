@@ -1,0 +1,18 @@
+{
+  "watchlist": [
+    {
+      "name": "浙江新码生物医药股份有限公司",
+      "credit_code": "91330600MA2899TKXY",
+      "scope": "core",
+      "enabled": true,
+      "note": "默认日报监控"
+    },
+    {
+      "name": "株洲欧科亿数控精密刀具股份有限公司",
+      "credit_code": "914302001843451689",
+      "scope": "core",
+      "enabled": true,
+      "note": "默认日报监控"
+    }
+  ]
+}

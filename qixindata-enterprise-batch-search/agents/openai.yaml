@@ -1,0 +1,4 @@
+interface:
+  display_name: "启信企业批量检索"
+  short_description: "按园区、开发区或周边范围批量筛选国内企业并输出 EID"
+  default_prompt: "Use $qixin-enterprise-batch-search to find and filter Chinese companies in batches, then return EIDs and core identifiers."

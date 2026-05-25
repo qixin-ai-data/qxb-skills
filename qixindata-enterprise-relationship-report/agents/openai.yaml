@@ -1,0 +1,15 @@
+﻿interface:
+  display_name: "启信宝国内企业关联关系报告"
+  short_description: "面向客户交付的中国企业关联关系深度分析与PDF报告"
+  icon_small: "./assets/logo.png"
+  icon_large: "./assets/logo.png"
+  default_prompt: "Use $qixin-cn-enterprise-relationship-report to investigate the relationship among two or more Chinese enterprises, produce a complete client-facing analysis, and deliver the final result primarily as a PDF report."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "qxb-mcp"
+      description: "启信宝 MCP，用于中国企业主体解析、股权控制关系、集团成员、疑似关联方、合作风险与新闻查询"
+
+policy:
+  allow_implicit_invocation: true

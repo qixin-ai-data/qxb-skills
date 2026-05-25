@@ -1,0 +1,4 @@
+interface:
+  display_name: "重点区域企业发现"
+  short_description: "围绕园区、开发区与产业带发现并排序 A 类重点企业"
+  default_prompt: "Use $qixin-cn-key-region-enterprise-discovery to discover and rank A-class Chinese companies in a target park, development zone, or industrial belt."

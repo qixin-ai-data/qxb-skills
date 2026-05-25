@@ -1,0 +1,4 @@
+interface:
+  display_name: "启信多次关系寻源"
+  short_description: "基于标杆企业、产品和地区线索，循环调用企信MCP核验并返回10-20家可联系的企业短名单和长名单"
+  default_prompt: "使用 $qixindata-multi-relationship-sourcing 基于标杆企业、产品、地区和排除名单，按当前国内版企信MCP核验并循环返回10-20家最匹配、可联系的企业，输出短名单和长名单。"
